@@ -11,7 +11,7 @@ class HomePage extends StatelessWidget {
       backgroundColor: Theme.of(context).colorScheme.background,
       appBar: AppBar(
         title: const Center(child: Text('P L A Y L I S T')),
-        backgroundColor: Theme.of(context).colorScheme.primary,
+        // backgroundColor: Theme.of(context).colorScheme.primary,
       ),
       drawer: const MyDrawer(),
     );
